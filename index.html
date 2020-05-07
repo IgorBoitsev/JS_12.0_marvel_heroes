@@ -4,13 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JS 12.0 --- Lesson 27 --- Marvel Heroes</title>
+  <style>
+    .marvel-hero .hero-photo {
+      width: 300px;
+    }
+    .marvel-hero p {
+      margin: 5px;
+    }
+    .marvel-hero .secret {
+      background: black;
+    }
+  </style>
 </head>
 <body>
 
   <select id="heroes-list">
     <option value="no" hidden>Выберите персонажа</option>
-    <option value="1">1</option>
   </select>
+
+  <article class="marvel-hero"></article>
 
   <script src="./scripts/script.js"></script>
 </body>
